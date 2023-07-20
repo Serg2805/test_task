@@ -22,6 +22,7 @@ class MoneyTransferTest {
       var verificationCode = DataHelper.getVerificationCodeFor(authInfo);
       verificationPage.validVerify(verificationCode);
       var dashboardPage = new DashboardPage();
+      dashboardPage.clickAddButton();
       var transferPage = new TransferPage();
       int initialBalance = dashboardPage.getCardBalance("0");
       transferPage.transferMoney("5559 0000 0000 0002", 1000);
@@ -30,6 +31,3 @@ class MoneyTransferTest {
     }
 
 }
-
-
-
