@@ -21,8 +21,7 @@ public class LoginPage {
   }
 
   public void fillLogin(DataHelper.AuthInfo info) {
-    $("[data-test-id=login] input").setValue(info.getLogin());
-    $("[data-test-id=password] input").setValue(info.getPassword());
-    $("[data-test-id=action-login]").click();
+    $("[data-test-id= 'login'] input").setValue(info.getLogin());
+    $("[data-test-id= 'password'] input").setValue(info.getPassword());
+    $("[data-test-id= 'action-login']").click();
   }
-}
