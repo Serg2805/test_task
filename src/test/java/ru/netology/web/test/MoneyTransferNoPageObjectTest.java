@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class MoneyTransferNoPageObjectTest {
     @Test
     void shouldTransferMoneyBetweenOwnCardsV1() {
-        open("http://localhost:99990");
+        open("http://localhost:9999");
 
         $("[data-test-id=login] input").setValue("vasya");
         $("[data-test-id=password] input").setValue("qwerty123");
