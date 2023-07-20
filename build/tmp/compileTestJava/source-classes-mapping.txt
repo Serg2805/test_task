@@ -1,0 +1,18 @@
+ru/netology/web/page/LoginPageV1.java
+ ru.netology.web.page.LoginPageV1
+ru/netology/web/page/VerificationPage.java
+ ru.netology.web.page.VerificationPage
+ru/netology/web/data/DataHelper.java
+ ru.netology.web.data.DataHelper
+ ru.netology.web.data.DataHelper$AuthInfo
+ ru.netology.web.data.DataHelper$VerificationCode
+ru/netology/web/page/LoginPageV3.java
+ ru.netology.web.page.LoginPageV3
+ru/netology/web/page/DashboardPage.java
+ ru.netology.web.page.DashboardPage
+ru/netology/web/test/MoneyTransferTest.java
+ ru.netology.web.test.MoneyTransferTest
+ru/netology/web/test/MoneyTransferNoPageObjectTest.java
+ ru.netology.web.test.MoneyTransferNoPageObjectTest
+ru/netology/web/page/LoginPageV2.java
+ ru.netology.web.page.LoginPageV2
