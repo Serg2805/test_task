@@ -5,14 +5,14 @@ import ru.netology.web.data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginPageV1 {
+public class LoginPage {
   public VerificationPage validLogin(DataHelper.AuthInfo info) {
     fillLogin(info);
 
     return new VerificationPage();
   }
 
-  public LoginPageV1 invalidLogin(DataHelper.AuthInfo info) {
+  public LoginPage invalidLogin(DataHelper.AuthInfo info) {
     fillLogin(info);
 
     $(".notification").shouldBe(Condition.visible);
