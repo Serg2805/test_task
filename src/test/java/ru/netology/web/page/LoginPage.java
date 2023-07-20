@@ -25,3 +25,4 @@ public class LoginPage {
     $("[data-test-id= 'password'] input").setValue(info.getPassword());
     $("[data-test-id= 'action-login']").click();
   }
+}  
